@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.batman{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 700px;
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./img/batmanOFF.jpg);
+}
+
+.batman_activo{
+    background-image: url(../img/batmanON.gif);
+}
+
+.bati_boton{
+    margin: 291px auto 0;
+    width: 30px;
+    height: 50px;
+
+}
